@@ -1,0 +1,81 @@
+
+.botaologo {
+    height: 80px;
+    margin-left: 150px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.fotologo {
+    height: 80px;
+}
+
+.a-definir {
+    position: absolute;
+    right: 250px;
+    top: 25px;
+    border: none;
+    height: 50px;
+    width: 150px;
+    font-size: 25px;
+    font-family: playfair;
+    background-color: white;
+    cursor: pointer;
+}
+
+.sobrenos {
+    position: absolute;
+    right: 400px;
+    top: 25px;
+    border: none;
+    height: 50px;
+    width: 150px;
+    font-size: 25px;
+    font-family: playfair;
+    background-color: white;
+    cursor: pointer;
+    
+}
+
+.contatos {
+    position: absolute;
+    right: 565px;
+    top: 25px;
+    border: none;
+    height: 50px;
+    width: 100px;
+    font-size: 25px;
+    font-family: playfair;
+    background-color: white;
+    cursor: pointer;
+}
+
+.blogs {
+    position: absolute;
+    right: 680px;
+    top: 25px;
+    border: none;
+    height: 50px;
+    width: 100px;
+    font-size: 25px;
+    font-family: playfair;
+    background-color: white;
+    cursor: pointer;
+}
+
+.cursos {
+    position: absolute;
+    right: 800px;
+    top: 25px;
+    border: none;
+    height: 50px;
+    width: 100px;
+    font-size: 25px;
+    font-family: playfair;
+    background-color: white;
+    cursor: pointer;
+}
+
+.linhahead {}
+
