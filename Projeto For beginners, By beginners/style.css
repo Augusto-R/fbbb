@@ -1,81 +1,85 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
 
-.botaologo {
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+:root {
+    --cor-primaria: #f8f9fa;
+    --cor-segundaria: #0077b6;
+    --cor-terciaria: #023e8a;
+}
+
+/*Barra de Navegação*/
+nav {
     height: 80px;
-    margin-left: 150px;
-    background-color: white;
-    border: none;
-    cursor: pointer;
+    display: flex;
+    justify-content: space-between;,
 }
 
-.fotologo {
+.logo img {
     height: 80px;
 }
 
-.a-definir {
-    position: absolute;
-    right: 250px;
-    top: 25px;
-    border: none;
-    height: 50px;
-    width: 150px;
-    font-size: 25px;
-    font-family: playfair;
-    background-color: white;
-    cursor: pointer;
+li {
+    list-style: none;
 }
 
-.sobrenos {
-    position: absolute;
-    right: 400px;
-    top: 25px;
-    border: none;
-    height: 50px;
-    width: 150px;
-    font-size: 25px;
-    font-family: playfair;
-    background-color: white;
-    cursor: pointer;
-    
+a {
+    text-decoration: none;
+    color: var(--cor-segundaria);
+    font-size: 24px;
+    font-weight: 500;
+    padding: 5px 2px 5px 1px;
+    text-align: center;
 }
 
-.contatos {
-    position: absolute;
-    right: 565px;
-    top: 25px;
-    border: none;
-    height: 50px;
-    width: 100px;
-    font-size: 25px;
-    font-family: playfair;
-    background-color: white;
-    cursor: pointer;
+#menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
 }
 
-.blogs {
-    position: absolute;
-    right: 680px;
-    top: 25px;
-    border: none;
-    height: 50px;
-    width: 100px;
-    font-size: 25px;
-    font-family: playfair;
-    background-color: white;
-    cursor: pointer;
+/*Conteudo Principal*/
+.bloco-principal {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
 }
 
-.cursos {
-    position: absolute;
-    right: 800px;
-    top: 25px;
-    border: none;
-    height: 50px;
-    width: 100px;
-    font-size: 25px;
-    font-family: playfair;
-    background-color: white;
-    cursor: pointer;
+.titulo {
+    font-size: 50px;
+    color: var(--cor-segundaria);
 }
 
-.linhahead {}
+.bloco-principal-conteudo {
+    border-right: 4px solid var(--cor-segundaria);
+}
+.bloco-principal-conteudo p {
+    font-size: 20px;
+    margin: 5px 15px 0 0;
+}
 
+/*Rodapé
+
+Precisa melhorar a forma de declarar o height do footer*/
+footer {
+    height: 93px;
+    background: var(--cor-segundaria);
+    display: flex;
+    justify-content: center;
+}
+
+.bloco-rodape {
+    margin-top: 15px;
+    color: var(--cor-primaria)
+}
