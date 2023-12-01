@@ -17,8 +17,8 @@ Neste blog, iremos contar as nossas experiências diárias com a disciplina de D
 > * Augusto Ramlow (RA: 202308395815)
 > * Matheus Barros Souza (RA: 202308508261)
 > * Michael de Souza da Silva (RA: 202308396382)
-> * Gustavo Domingos Neves
-> * Pedro Vinicius Oliveira Alves
+> * Gustavo Domingos Neves (RA: 202308663895)
+> * Pedro Vinicius Oliveira Alves (RA: 202308769162)
 
  
 
